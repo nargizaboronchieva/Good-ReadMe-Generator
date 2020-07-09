@@ -3,7 +3,7 @@
  Good README Generator
            
 
-![Travis Status]( https://img.shields.io/travis/:githubUsername/:repository)
+[![ForTheBadge uses-js](http://ForTheBadge.com/images/badges/uses-js.svg)](http://ForTheBadge.com)
 
 
 ## Project Title:
@@ -18,7 +18,7 @@ Create a command-line application that dynamically generates a README.md from a 
 
           
 ## Table of Contents:
-Title <br /> Description <br /> Table of Contents<br /> Installation<br /> Usage <br /> License  <br /> Contributing <br /> Tests  <br /> Questions
+Title <br /> Description <br /> Table of Contents<br /> Installation<br /> Usage <br /> License  <br /> Contributing <br /> Tests  <br /> Questions 
 
 ## Author:
 Nargiza Boronchieva
@@ -32,10 +32,10 @@ npm i util inquire
           
 This README Generator is good to create README file for your project on go 
           
-This README Generator is good to create README file for your project on go
+This README Generator is good to create README file for your project on go 
           
           
-## License  ![GitHub](https://img.shields.io/github/license/nargizaboronchieva/Good-ReadMe-Generator?color=gr&style=for-the-badge):         
+##  ![GitHub](https://img.shields.io/github/license/nargizaboronchieva/Good-ReadMe-Generator?color=gr&style=for-the-badge) License :         
 MIT
           
           
@@ -44,7 +44,7 @@ https://github.com/nargizaboronchieva/Good-ReadMe-Generator/blob/master/LICENSE
       
           
 ## Contributing :      
-1. Fork it.  <br /> 2. Create your feature branch.<br />    3. Commit your changes <br /> 4. Push to the branch. <br /> 5. Submit a pull request 
+1. Fork it.  <br /> 2. Create your feature branch.<br />    3. Commit your changes <br /> 4. Push to the branch. <br /> 5. Submit a pull request
           
           
 ## Tests:
@@ -57,5 +57,7 @@ No testing is needed for this project
 ## User GitHub email:
 nargizaboronchieva@gmail.com 
           
+[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/nargizaboronchieva/)
+
  
           

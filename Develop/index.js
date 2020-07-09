@@ -11,11 +11,6 @@ const writeFileAsync = util.promisify(fs.writeFile);
       try {
             const  userAnswers  = await inquirer.prompt(
             [
-                {
-                    message: "Please enter badge?",
-                    name: "badge",
-                    type: "input"
-                  },
              {
                 message: "What is the title of your project?",
                 name: "projectTitle",
@@ -93,7 +88,7 @@ writeFileAsync('README.md', `
  ${userAnswers.projectTitle}
            
 
-![Travis Status]( ${userAnswers.badge})
+[![ForTheBadge uses-js](http://ForTheBadge.com/images/badges/uses-js.svg)](http://ForTheBadge.com)
 
 
 ## Project Title:
@@ -125,7 +120,7 @@ This README Generator is good to create README file for your project on go
 ${userAnswers.usage}
           
           
-## License  ![GitHub](https://img.shields.io/github/license/nargizaboronchieva/Good-ReadMe-Generator?color=gr&style=for-the-badge):         
+##  ![GitHub](https://img.shields.io/github/license/nargizaboronchieva/Good-ReadMe-Generator?color=gr&style=for-the-badge) License :         
 ${userAnswers.license}
           
           
@@ -147,6 +142,8 @@ ${userAnswers.test}
 ## User GitHub email:
 ${userAnswers.email}
           
+[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/nargizaboronchieva/)
+
  
           `
         );
