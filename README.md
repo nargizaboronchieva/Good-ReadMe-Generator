@@ -44,7 +44,7 @@ https://github.com/nargizaboronchieva/Good-ReadMe-Generator/blob/master/LICENSE
       
           
 ## Contributing :      
-1. Fork it.  <br /> 2. Create your feature branch.<br />    3. Commit your changes <br /> 4. Push to the branch. <br /> 5. Submit a pull request
+1. Fork it.  <br /> 2. Create your feature branch.<br />    3. Commit your changes <br /> 4. Push to the branch. <br /> 5. Submit a pull request 
           
           
 ## Tests:
