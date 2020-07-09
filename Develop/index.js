@@ -89,43 +89,43 @@ const writeFileAsync = util.promisify(fs.writeFile);
         );
     
 writeFileAsync('README.md', `
-${userAnswers.projectTitle}
+## ![GitHub](https://img.shields.io/github/license/nargizaboronchieva/Good-ReadMe-Generator?color=red&label=Good%20README%20Generator&style=for-the-badge)
+ ${userAnswers.projectTitle}
            
 
 ![Travis Status]( ${userAnswers.badge})
 
 
-## Project Title
+## Project Title:
 ${userAnswers.projectTitle}
 
-## Description
+## Description:
 
 ${userAnswers.description}
 
-## Project Home Page
-
-[Home Page](${userAnswers.projectHomePage})
+## Project Home Page:
+[Press this link for Project Home Page] (${userAnswers.projectHomePage})
 
           
-## Table of Contents
+## Table of Contents:
 ${userAnswers.tableOfContents}
 
-## Author
+## Author:
 ${userAnswers.author}
           
-## Installation
+## Installation:
           
 ${userAnswers.installation}
           
           
-## Usage
+## Usage:
           
 This README Generator is good to create README file for your project on go 
           
 ${userAnswers.usage}
           
           
-## License         
+## License  ![GitHub](https://img.shields.io/github/license/nargizaboronchieva/Good-ReadMe-Generator?color=gr&style=for-the-badge):         
 ${userAnswers.license}
           
           
@@ -133,18 +133,18 @@ ${userAnswers.license}
 ${userAnswers.licenseURL}
       
           
-## Contributing       
+## Contributing :      
 ${userAnswers.contributing}
           
           
-## Tests
+## Tests:
 ${userAnswers.test}
         
           
-##  User GitHub profile picture
+##  User GitHub profile picture:
 ![alt text](${userAnswers.gitHubPicture})
 
-## User GitHub email
+## User GitHub email:
 ${userAnswers.email}
           
  
