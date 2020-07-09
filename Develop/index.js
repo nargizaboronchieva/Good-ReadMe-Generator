@@ -62,7 +62,7 @@ const writeFileAsync = util.promisify(fs.writeFile);
                 type: "input"
               },
               {
-                message: "Who is contributor of your project? ",
+                message: "How to contribute to your project? ",
                 name: "contributing",
                 type: "input"
               },
@@ -88,58 +88,66 @@ const writeFileAsync = util.promisify(fs.writeFile);
 
         );
     
-        writeFileAsync('README.md',   
-         `
-            ${userAnswers.projectTitle}
+writeFileAsync('README.md', `
+${userAnswers.projectTitle}
            
 
-          ![Travis Status]( ${userAnswers.badge})
-          
-          
-          ## Project Title
-          ${userAnswers.projectTitle}
-          
-          ## Description
+![Travis Status]( ${userAnswers.badge})
 
-          ${userAnswers.description}
-          
-          ## Project Home Page
-          [Home Page](${userAnswers.projectHomePage})
-          
-          ## Table of Contents
-          ${userAnswers.tableOfContents}
 
-          ## Author
-          ${userAnswers.author}
-          
-          ## Installation
-          ${userAnswers.installation}
-          
-          ## Usage
-          This README Generator is good to create README file for your project on go 
-          ${userAnswers.usage}
-          
-          ## License
-          ${userAnswers.license}
-          
-          ## License URL:
-          ${userAnswers.licenseURL}
+## Project Title
+${userAnswers.projectTitle}
+
+## Description
+
+${userAnswers.description}
+
+## Project Home Page
+
+[Home Page](${userAnswers.projectHomePage})
 
           
-          ## Contributing
-          ${userAnswers.contributing}
+## Table of Contents
+${userAnswers.tableOfContents}
+
+## Author
+${userAnswers.author}
           
-          ## Tests
-          ${userAnswers.test}
+## Installation
+          
+${userAnswers.installation}
+          
+          
+## Usage
+          
+This README Generator is good to create README file for your project on go 
+          
+${userAnswers.usage}
+          
+          
+## License         
+${userAnswers.license}
+          
+          
+## License URL:         
+${userAnswers.licenseURL}
+      
+          
+## Contributing       
+${userAnswers.contributing}
+          
+          
+## Tests
+${userAnswers.test}
         
           
-          ##  User GitHub profile picture
-          ![alt text](${userAnswers.gitHubPicture})
+##  User GitHub profile picture
+![alt text](${userAnswers.gitHubPicture})
 
-          ## User GitHub email
-          ${userAnswers.email}
-          nargizaboronchieva@gmail.com
+## User GitHub email
+${userAnswers.email}
           
+ 
           `
         );
     
