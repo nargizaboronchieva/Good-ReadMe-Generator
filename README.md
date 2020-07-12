@@ -9,7 +9,7 @@ Good README Generator
 Create a command-line application that dynamically generates a README.md from a user's input. The application will be invoked with Node JS and ES 6+ command: node index.js
 ![Image Alt Text](./good-ReadMe-Generator.gif)
 ## Project Home Page:
-[Press this link for Project Home Page] (https://github.com/nargizaboronchieva/Good-ReadMe-Generato)
+[Press this link for Project Home Page] (https://github.com/nargizaboronchieva/Good-ReadMe-Generator)
           
 ## Table of Contents:
 Title <br /> Description <br /> Table of Contents<br /> Installation<br /> Usage <br /> License  <br /> Contributing <br /> Tests  <br /> Questions
