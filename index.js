@@ -87,24 +87,16 @@ writeFileAsync('README.md', `
 ## ![GitHub](https://img.shields.io/github/license/nargizaboronchieva/Good-ReadMe-Generator?color=red&label=Good%20README%20Generator&style=for-the-badge)
  ${userAnswers.projectTitle}
            
-
 [![ForTheBadge uses-js](http://ForTheBadge.com/images/badges/uses-js.svg)](http://ForTheBadge.com)
-
-
 ## Project Title:
 ${userAnswers.projectTitle}
-
 ## Description:
-
 ${userAnswers.description}
-
 ## Project Home Page:
 [Press this link for Project Home Page] (${userAnswers.projectHomePage})
-
           
 ## Table of Contents:
 ${userAnswers.tableOfContents}
-
 ## Author:
 ${userAnswers.author}
           
@@ -138,12 +130,10 @@ ${userAnswers.test}
           
 ##  User GitHub profile picture:
 ![alt text](${userAnswers.gitHubPicture})
-
 ## User GitHub email:
 ${userAnswers.email}
           
 [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/nargizaboronchieva/)
-
  
           `
         );
